@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='footer' id="footer">
             <div className="footer-content">
                 <div className="footer-content-left">
-                    <img src={assets.logo} alt="" style={{ width: "150px", marginTop:"-10px"}} />
+                    <img className='logo' src={assets.logo} alt="" style={{ width: "150px", marginTop:"-30px"}} />
                     <p>At Foodmart, we are dedicated to providing you with the freshest and highest quality ingredients. Your health and well-being are our top priorities. Thank you for choosing us!</p>
                     <div className="footer-social-icons">
                         <img src={assets.facebook_icon} alt="" />

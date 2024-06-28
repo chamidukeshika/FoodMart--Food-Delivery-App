@@ -15,7 +15,7 @@
     align-items: start;
     gap: 1.5vw;
     max-width: 50%;
-    bottom: 25%;
+    bottom: 15%;
     animation: fadeIn 3s;
 }
 
@@ -45,4 +45,24 @@
 
 .header-content button:hover{
     box-shadow:0px 0px 10px gold;
+}
+
+@media(max-width:1050px){
+    .header-content{
+        max-width: 45%;
+    }
+}
+
+@media(max-width:750px){
+    .header-content{
+        max-width: 50%;
+        max-height: 80%;
+    }
+    .header-content p{
+        display: none;
+    }
+    .header-content button{
+        padding: 2vw 4vw;
+    }
+    
 }
