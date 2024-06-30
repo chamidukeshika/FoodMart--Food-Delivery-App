@@ -50,7 +50,8 @@
 
 .footer-content-right h2,
 .footer-content-center h2 {
-   color: rgba(255, 255, 255, 0.849);
+    margin-top: -20px;;
+   color: rgba(255, 255, 255, 0.742);
 }
 
 .footer-social-icons img{

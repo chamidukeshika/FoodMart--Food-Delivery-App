@@ -17,7 +17,7 @@ const Footer = () => {
 
                 </div>
                 <div className="footer-content-center">
-                    <h2>Our Company</h2>
+                    <h2 className='h2'>Our Company</h2>
                     <ul>
                         <li>Home</li>
                         <li>About us</li>
@@ -26,7 +26,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="footer-content-right">
-                    <h2>Send a Message</h2>
+                    <h2 className='h2'>Send a Message</h2>
                     <ul>
                         <li>+94-71-234567</li>
                         <li>contact@foodmart.com</li>
