@@ -5,8 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "server":"node server.js",
-    "postinstall": "npm rebuild bcrypt --build-from-source"
+    "server":"node server.js"
   },
   "author": "",
   "license": "ISC",
